@@ -1,0 +1,72 @@
+#playerTrackInfo{
+	position:relative;
+    width: 135px;
+    padding-top: 10px;
+    /*background-color: black;*/
+}
+#playerTrackName{
+	position:absolute;
+	top:0px;
+	white-space: nowrap ;
+	text-align: center;
+	width:135px;
+	font-family: monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+#playerTrackArtist{
+	position:absolute;
+	top:23px;
+	white-space: nowrap;
+	text-align: center;
+	width:135px;
+	font-family: monospace;
+    font-size: 10.5px;
+    color: #bbb;
+}
+#controls {
+	position:relative;
+    width: 135px;
+    top:60px;
+  }
+  #previous{
+  	position:absolute;
+ 	top:0;
+ 	left:30px;
+ 	width:15px;
+  }
+  #play{
+  	position:absolute;
+ 	top:0;
+ 	left:60px;
+ 	width:15px;	
+  }
+  #next{
+  	position:absolute;
+ 	top:0;
+ 	left:90px;
+ 	width:15px;	
+  }
+ #shuffle-and-repeat{
+ 	position:relative;
+ 	width: 135px;
+ 	top:90px;
+ 	padding-bottom: 25px;
+ 	/*margin-bottom: 15px;*/
+ }
+ #shuffle{
+ 	position:absolute;
+    top:0;
+    left:45px;
+    width: 15px;
+ }
+#repeat{
+	position:absolute;
+ 	top:0;
+ 	left:75px;
+ 	width:15px;
+}
+.div_hover:hover {
+	opacity: 0.4;
+    filter: alpha(opacity=40);
+}
